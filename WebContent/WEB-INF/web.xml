@@ -10,4 +10,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>contactServlet</display-name>
+    <servlet-name>contactServlet</servlet-name>
+    <servlet-class>com.sapient.contact.contactServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contactServlet</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
 </web-app>
